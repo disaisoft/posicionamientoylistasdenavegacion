@@ -5,51 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barberia Alura</title>
-    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1 class="tituloPrincipal">Barberia Alura</h1>
+        <div class="caja">
+            <h1><img src="img/logo.png" alt="logobarberia"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>   
     </header>
 
-    <img id="banner" src="bannerarberia.png" alt="bannerdelabarberia">
+    <img class="banner" src="bannerarberia.png" alt="bannerdelabarberia">
 
-    <div class="principal">
+    <main>
+        <section class="principal">
 
-        <h2 class="tituloCentralizado">Sobre la barberia de Alura</h2>
-
-        <p>Ubicados en el corazón de la ciudad, la <strong>barberia DAVE</strong> trae para el mercado lo que mejor
-            hay para su cabello y barba. fundada en el año 2000, la barberia DAVE ya se destaca en la ciudad
-            y conquista nuevos clientes todos los días.
-        </p>
-
-        <p id="mision" ><em> Nuestra misión es: <strong> "Proporcionar autoestima y calidad  vida a nuestros clientes" </strong>.</em></p>
-
-        <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios
-            y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las ultimas tendencias.
-            El servicio posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.
-        </p>
-
-    </div>
+            <h2 class="titulo-principal">Sobre la barberia de Alura</h2>
     
-    <div class="diferenciales">
-
-        <h3 class="tituloCentralizado">Diferenciales</h3>
-
-        <ul>
-            <li class="items">Atención personalizada a los clientes</li>
-            <li class="items">Espacio diferenciado</li>
-            <li class="items">Localización</li>
-            <li class="items">Profesionales Calificados</li>
-        </ul>
-
-        <img src="diferenciales.png" alt="diferenciales" class="imagenDiferencial">
-
-    </div>
+            <p>Ubicados en el corazón de la ciudad, la <strong>barberia DAVE</strong> trae para el mercado lo que mejor
+                hay para su cabello y barba. fundada en el año 2000, la barberia DAVE ya se destaca en la ciudad
+                y conquista nuevos clientes todos los días.
+            </p>
     
+            <p id="mision" ><em> Nuestra misión es: <strong> "Proporcionar autoestima y calidad  vida a nuestros clientes" </strong>.</em></p>
     
+            <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios
+                y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las ultimas tendencias.
+                El servicio posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.
+            </p>
     
+        </section>
+        
+        <section class="diferenciales">
+    
+            <h3 class="titulo-principal">Diferenciales</h3>
+    
+            <ul>
+                <li class="items">Atención personalizada a los clientes</li>
+                <li class="items">Espacio diferenciado</li>
+                <li class="items">Localización</li>
+                <li class="items">Profesionales Calificados</li>
+            </ul>
+    
+            <img src="diferenciales.png" alt="diferenciales" class="imagenDiferencial">
+            
+        </section>
+
+    </main>
+
+        
     <footer>
         <img src="img/logo-blanco.png" alt="Logo de la barberia">
         <p class="copyright"> &copy; Copyright Barberia Alura 2022</p>
